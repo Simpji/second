@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+
+    <link rel="stylesheet" href="/css/style.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+</head>
+
+<body>
+
+    <!-- header -->
+    <header class="main-head">
+        <a href="" class="logo">Simple Tech</a>
+
+        <ul class="ay">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <!-- <li><a href="#Service">Service</a></li>
+                <li><a href="#portfolio">Portfolio</a></li> -->
+            <li><a href="contact.html">Contact Me</a></li>
+        </ul>
+    </header>
+
+
+    <section class="contact section">
+        <h2 class="section-titl">
+            Let Talk <br>
+            About Your Project
+        </h2>
+
+        <div class="contact-page container gird">
+            <form action="" class="contact-form grid" id="contact-form">
+                <div class="contact-group gird">
+                    <div class="contact-box">
+                        <input type="text" name="user-name" id="user-name" required placeholder="Write your names"
+                            class="contact-input">
+                        <label for="name" class="contact-label">First Name</label>
+                    </div>
+
+                    <div class="contact-box">
+                        <input type="email" name="user-email" id="email" required placeholder="Write your email"
+                            class="contact-input">
+                        <label for="email" class="contact-label">Email</label>
+                    </div>
+                </div>
+
+                <div class="contact-box contact-area">
+                    <textarea name="user-message" id="message" required placeholder="Write your message"
+                        class="contact-input"></textarea>
+                    <label for="message" class="contact-label">Message</label>
+
+
+                </div>
+
+                <p class="contact-message" id="contact-message">Message</p>
+                <button type="submit" class="contact-send button">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+
+    <div class="wrapper">
+        <section id="footer">
+            <div class="social">
+                <a href="#"><i class="bx bi-linkedin"></i></a>
+                <a href="#"><i class='bx bi-facebook'></i></a>
+                <a href=""><i class='bx bi-behance'></i></a>
+                <a href=""><i class="bi bi-instagram"></i></a>
+                <a href=""><i class='bx bi-dribbble'></i></a>
+            </div>
+
+            <ul class="list">
+                <li class="lists">FAQ</li>
+                <li class="lists">Service</li>
+                <li class="lists">About Me</li>
+                <li class="lists">Contact</li>
+                <li class="lists">Privacy Policy</li>
+            </ul>
+        </section>
+    </div>
+
+    <!-- EMAIL JS -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script src="/js/contact.js"></script>
+</body>
+
+</html>
